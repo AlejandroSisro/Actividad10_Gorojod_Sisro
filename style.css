@@ -1,0 +1,13 @@
+body
+{
+    background-color: #121212;
+}
+header
+{
+    background-color: #1F1F24;
+    border-bottom: 15px solid #33333A;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+}
