@@ -11,3 +11,12 @@ header
     left: 0;
     width:100%;
 }
+article
+{
+    background-color: #1F1F24;
+    border-radius: 25px;
+}
+article img
+{
+    width:25%;
+}
