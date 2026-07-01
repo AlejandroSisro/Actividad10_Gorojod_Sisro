@@ -11,14 +11,29 @@ header
     left: 0;
     width:100%;
 }
+section
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 article
 {
     background-color: #1F1F24;
     border-radius: 2.5em;
+    width:25%;
 }
 article img
 {
-    width:25%;
+    width:80%;
+    border-radius: 0em;
+}
+main img
+{
+    border-radius: 2.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 header nav ul
 {
@@ -42,4 +57,54 @@ a
 header nav ul li a:hover
 {
     background-color: #33333A;
+}
+h1
+{
+    color:#E0E0E0;
+    text-align: center;
+    font-size: 4em;
+}
+h2
+{
+    color:#E0E0E0;
+    text-align: center;
+    font-size: 3em;
+}
+h3
+{
+    color:#E0E0E0;
+    text-align: center;
+    font-size: 2em;
+}
+main
+{
+    margin-top:8%;
+}
+button
+{
+    width: auto;
+    background-color: #1F1F24;
+    border-radius: 2.5em;
+    padding: 2em;
+    border: none;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+button:hover
+{
+    background-color: #1F1F24;
+    box-shadow: 0 0 0.35em 0.35em #EED911;
+}
+header nav ul li a img
+{
+    width:25%;
+    border-radius: none;
+}
+.CTA
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5%;
+    padding: 0.5%;
 }
