@@ -16,7 +16,8 @@ section
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-top: 2%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
 }
 article
 {
