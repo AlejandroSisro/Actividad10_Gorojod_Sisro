@@ -16,6 +16,7 @@ section
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-top: 2%;
 }
 article
 {
@@ -70,6 +71,10 @@ h2
     text-align: center;
     font-size: 3em;
 }
+p
+{
+    color:#E0E0E0;
+}
 h3
 {
     color:#E0E0E0;
@@ -107,4 +112,43 @@ header nav ul li a img
     align-items: center;
     gap: 1.5%;
     padding: 0.5%;
+}
+.Refuerzos
+{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 1%;
+    text-align: center;
+}
+.Refuerzos article
+{
+    border-top: 8px solid #33333A;
+    background-color: #1F1F24;
+    padding: 20px;
+    border-radius: 25px;
+    width: 25%;
+    height:20%;
+    display: inline-block;
+}
+.Kitana
+{
+    border-top: 8px solid #4169E1;
+}
+.Havik
+{
+    border-top: 8px solid #BD144C;
+}
+.ErronBlack
+{
+    border-top: 8px solid #4A2C11;
+}
+.Personajes article:hover
+{
+    box-shadow: 0 0 0.35em 0.35em #EED911;
+}
+.Refuerzos article:hover
+{
+    background-color: #1F1F24;
+    box-shadow: 0 0 0.35em 0.35em #EED911;
 }
