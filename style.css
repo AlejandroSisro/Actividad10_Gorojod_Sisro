@@ -5,7 +5,7 @@ body
 header
 {
     background-color: #1F1F24;
-    border-bottom: 15px solid #33333A;
+    border-bottom: 1.5em solid #33333A;
     position: fixed;
     top: 0;
     left: 0;
@@ -118,16 +118,16 @@ header nav ul li a img
 {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 5%;
     margin-top: 1%;
     text-align: center;
 }
 .Refuerzos article
 {
-    border-top: 8px solid #33333A;
+    border-top: 0.8em solid #33333A;
     background-color: #1F1F24;
-    padding: 20px;
-    border-radius: 25px;
+    padding: 2%;
+    border-radius: 2.5em;
     width: 25%;
     height:20%;
     display: inline-block;
@@ -152,4 +152,47 @@ header nav ul li a img
 {
     background-color: #1F1F24;
     box-shadow: 0 0 0.35em 0.35em #EED911;
+}
+.Reseñas
+{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 1%;
+}
+.Reseñas article
+{
+    background-color: #1F1F24;
+    padding: 2%;
+    border-radius: 2.5em;
+    display: inline-block;
+    width: 35%;
+}
+.Positiva img
+{
+    width:40%;
+}
+.Negativa img
+{
+    width:40%;
+}
+.Positiva:hover
+{
+    box-shadow: 0 0 0.35em 0.35em #00ff15;
+}
+.Negativa:hover
+{
+    box-shadow: 0 0 0.35em 0.35em #F53929;
+}
+footer img
+{
+    width:10%;
+    border-radius:10em;
+}
+footer
+{
+    background-color: #1F1F24;
+    border-top: 1.5em solid #33333A;
+    text-align: center;
+    margin-top: 3%;
 }
